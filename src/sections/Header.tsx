@@ -5,7 +5,7 @@ import MenuIcon from "@/assets/menu.svg";
 
 export default function Header() {
   return (
-    <header className=" top-0">
+    <header className="top-0 sticky backdrop-blur-sm z-20">
       <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-3">
         <p className="text-white/60 hidden md:block">
           Optimice su flujo de trabajo y aumente su productividad
