@@ -19,7 +19,7 @@ export default function Header() {
         <div className="container">
           <div className="flex items-center justify-between">
             <Image src={Logo} alt="Logo" width={40} height={40}></Image>
-            <MenuIcon className="h-5 w-5" />
+            <MenuIcon className="h-5 w-5 md:hidden" />
             <nav className="hidden md:flex gap-6 text-black/60 items-center ">
               <a href="#">Acerca de</a>
               <a href="#">Características</a>
